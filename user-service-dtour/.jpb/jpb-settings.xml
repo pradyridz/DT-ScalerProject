@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaLiquibaseChangesConfig">
+    <exclude-change idName="authorization#access_token_scopes" tagName="modifyDataType" />
+    <exclude-change idName="authorization#access_token_value" tagName="modifyDataType" />
+    <exclude-change idName="authorization#attributes" tagName="modifyDataType" />
+    <exclude-change idName="authorization#authorization_code_value" tagName="modifyDataType" />
+    <exclude-change idName="authorization#authorized_scopes" tagName="modifyDataType" />
+    <exclude-change idName="authorization#device_code_metadata" tagName="modifyDataType" />
+    <exclude-change idName="authorization#device_code_value" tagName="modifyDataType" />
+    <exclude-change idName="authorization#oidc_id_token_claims" tagName="modifyDataType" />
+    <exclude-change idName="authorization#oidc_id_token_metadata" tagName="modifyDataType" />
+    <exclude-change idName="authorization#oidc_id_token_value" tagName="modifyDataType" />
+    <exclude-change idName="authorization#refresh_token_metadata" tagName="modifyDataType" />
+    <exclude-change idName="authorization#refresh_token_value" tagName="modifyDataType" />
+    <exclude-change idName="authorization#state" tagName="modifyDataType" />
+    <exclude-change idName="authorization#user_code_metadata" tagName="modifyDataType" />
+    <exclude-change idName="authorization#user_code_value" tagName="modifyDataType" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="Default" defaultSearchScope="Project">
+        <packages>
+          <package value="com.dtour.userservice" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>

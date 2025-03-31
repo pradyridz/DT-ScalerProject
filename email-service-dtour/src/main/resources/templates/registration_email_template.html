@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful - Destination Tour</title>
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo {
+            max-width: 150px;
+        }
+        .content {
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(45deg, orange, white);
+            color: #333; /* Change text color */
+            text-decoration: none;
+            border-radius: 5px;
+            border: none; /* Remove border */
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Add shadow */
+            transition: all 0.3s ease-in-out; /* Add transition */
+            margin-left: 120px; /* Add left margin */
+        }
+        .button:hover {
+            transform: translateY(-1px); /* Add hover effect */
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Add hover shadow */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="https://i.ibb.co/rccWsLs/test-logo.png" alt="Destination Tour Logo" class="logo">
+    </div>
+    <div class="content">
+        <h3>Registration Successful!</h3>
+        <p>Dear {name},</p>
+        <p>Welcome to Destination Tour! We're excited to have you join our community.</p>
+        <p>Your registration is complete, and your account is in review with our administrative team.
+        Once your account is activated you will get another email communication from our end.</p>
+        <p>Meanwhile, please verify your email by clicking the link below.</p>
+        <a href="http://localhost:8989/emails/user-registration/verify/email/{emailToken}" class="button">Verify Email</a>
+        </br>
+        <p>Feel free to explore our services and features. If you have any questions or need assistance, don't hesitate to reach out to our support team.</p>
+        <p>Thank you for choosing Destination Tour.</p>
+        </br>
+        </br>
+        </br>
+        <p><I>********** This is a system generated email. Please do not reply to this. ***********</I></p>
+    </div>
+    <div class="footer">
+        <p>Best regards,<br>Destination Tour Team</p>
+        <p>Follow us on <a href="https://twitter.com/yourcompany" target="_blank" style="color: #007bff;">Twitter</a> | Like us on <a href="https://facebook.com/yourcompany" target="_blank" style="color: #007bff;">Facebook</a></p>
+    </div>
+</div>
+</body>
+</html>
